@@ -1,4 +1,4 @@
-ARG TARGETARCH
+ARG TARGETARCH=arm64
 FROM --platform=linux/${TARGETARCH} rust:1.84.0-slim-bookworm as builder
 
 ARG TARGETARCH
